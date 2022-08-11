@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+header {
+  width: 30vw;
+  border: 1px solid black;
+  background-image: url(/images/mountain_background.webp);
+}
+main {
+  width: 70vw;
+  border: 1px solid black;
+}
+
+.logo {
+  background-color: black;
+  opacity: 0.4;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo h1 {
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
+
+header h2 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 72vh;
+}
+
+header img {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 20px;
+}
