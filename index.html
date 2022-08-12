@@ -16,6 +16,52 @@
       </div>
       <h2>Photo by Rachid Dahnoun</h2>
     </header>
-    <main><h1>Hello</h1></main>
+    <main>
+      <h1>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up now.
+      </h1>
+      <h2>You <em>KNOW</em> you want to.</h2>
+      <h3>Let's do this!</h3>
+      <form action="post">
+        <fieldset class="name">
+          <div class="first-name">
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" id="first_name" name="first_name" />
+          </div>
+          <div class="last-name">
+            <label for="last_name">LAST NAME</label>
+            <input type="text" id="last_name" name="last_name" />
+          </div>
+        </fieldset>
+        <fieldset class="contact">
+          <div class="email">
+            <label for="email">EMAIL </label
+            ><input type="email" id="email" name="email" />
+          </div>
+          <div class="phone">
+            <label for="phone">PHONE NUMBER</label
+            ><input
+              type="text"
+              id="phone"
+              name="phone"
+              pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"
+            />
+          </div>
+        </fieldset>
+        <fieldset class="password">
+          <div class="firstpass">
+            <label for="pass">PASSWORD</label>
+            <input type="password" id="pass" name="pass" />
+          </div>
+          <div class="secondpass">
+            <label for="confpass">CONFIRM PASSWORD</label
+            ><input type="password" id="confpass" name="confpass" />
+          </div>
+        </fieldset>
+        <button type="submit">Create Account</button>
+      </form>
+      <h4>Already have an account? <a href="#">Log in</a></h4>
+    </main>
   </body>
 </html>

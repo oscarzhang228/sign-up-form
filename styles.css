@@ -46,3 +46,7 @@ header img {
   height: 4rem;
   margin-left: 20px;
 }
+
+fieldset {
+  border: none;
+}
