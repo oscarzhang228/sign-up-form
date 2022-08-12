@@ -12,12 +12,10 @@ body {
 
 header {
   width: 30vw;
-  border: 1px solid black;
   background-image: url(/images/mountain_background.webp);
 }
 main {
   width: 70vw;
-  border: 1px solid black;
 }
 
 .logo {
@@ -33,12 +31,15 @@ main {
   color: white;
   text-align: center;
   padding: 6px;
+  font-family: "Rubik Dirt", sans-serif;
 }
 
 header h2 {
   font-size: 1rem;
   text-align: center;
-  margin-top: 72vh;
+  position: fixed;
+  bottom: 0;
+  height: 30px;
 }
 
 header img {
@@ -49,4 +50,79 @@ header img {
 
 fieldset {
   border: none;
+}
+
+main {
+  background-color: #cccccc;
+}
+
+main h1 {
+  width: 70%;
+  margin-top: 10vh;
+}
+
+main h2,
+main h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 8vw;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+main h2 {
+  margin-top: 2vh;
+}
+
+form {
+  border-top: 1px solid gray;
+  border-bottom: 2px solid gray;
+  background-color: white;
+}
+
+fieldset div {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  display: flex;
+  gap: 10px;
+  margin-left: 40px;
+}
+
+label {
+  font-size: 0.8rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button[type="submit"] {
+  border: none;
+  background: none;
+  margin-left: 6vw;
+  margin-top: 5vh;
+  background-color: green;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+h4 {
+  margin-left: 6vw;
+  margin-top: 3vh;
+}
+
+h4 a {
+  text-decoration: none;
+  color: green;
+  display: inline-block;
+}
+
+input:focus {
+  border: 3px solid skyblue;
+  box-shadow: 2px 2px lightgray;
+}
+
+.password input {
+  border: 1px solid red;
+  border-radius: 1px;
 }

@@ -22,12 +22,11 @@
         in your life to help you realize your deepest dreams. Sign up now.
       </h1>
       <h2>You <em>KNOW</em> you want to.</h2>
-      <h3>Let's do this!</h3>
-      <form action="post">
+      <form action="post" id="myform">
         <fieldset class="name">
           <div class="first-name">
             <label for="first_name">FIRST NAME</label>
-            <input type="text" id="first_name" name="first_name" />
+            <input type="text" id="first_name" name="first_name" value="Thor" />
           </div>
           <div class="last-name">
             <label for="last_name">LAST NAME</label>
@@ -59,8 +58,8 @@
             ><input type="password" id="confpass" name="confpass" />
           </div>
         </fieldset>
-        <button type="submit">Create Account</button>
       </form>
+      <button type="submit" form="myForm">Create Account</button>
       <h4>Already have an account? <a href="#">Log in</a></h4>
     </main>
   </body>
